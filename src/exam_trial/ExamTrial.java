@@ -1,19 +1,23 @@
 package exam_trial;
 
 /**
- * @author --G--
+ * @author NagyMarton
  */
 public class ExamTrial {
 
     public static void main(String[] args) {
         int bitCount = bitCount(31);
-
+        System.out.println(bitCount);
     }
 
-    private static int bitCount(int i) {
+    private static int bitCount(int n) {
         //your solution here
         //how many 1 bit is in the attributte?
-        throw new UnsupportedOperationException("exam failed.");
+        int count = 0;
+        for (int i = 0; i < 32; i++) {
+            count += n & 1;
+            n >>= 1;
+        }
+        return count;
     }
-
 }

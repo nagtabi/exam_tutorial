@@ -13,7 +13,10 @@ public class ExamTrial {
     private static int bitCount(int i) {
         //your solution here
         //how many 1 bit is in the attributte?
-        throw new UnsupportedOperationException("exam failed.");
+        //
+        // NEM ADJUK FEL A CSÜGGEDÉSÜNKET!!!! :)
+        //
+        return 123;
     }
 
 }

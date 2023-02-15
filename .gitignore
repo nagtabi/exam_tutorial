@@ -1,0 +1,5 @@
+*.private 
+# comment exclude log files
+*.log
+# exclude cache directory
+cache/

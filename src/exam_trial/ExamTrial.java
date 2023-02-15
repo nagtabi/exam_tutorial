@@ -19,6 +19,7 @@ public class ExamTrial {
             count += (i >>> j) & 1;
         }
         System.out.println("something to write out!");
+        System.out.println("something to write out!");
         return count;
     }
 

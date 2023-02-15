@@ -18,7 +18,7 @@ public class ExamTrial {
         for (int j = 0; j < 32; j++) {
             count += (i >>> j) & 1;
         }
-        System.out.println("something to write out");
+        System.out.println("something to write out!");
         return count;
     }
 
